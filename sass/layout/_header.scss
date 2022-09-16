@@ -1,0 +1,12 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+}
+
+.current {
+    color: var(--text-color-hover);
+}
