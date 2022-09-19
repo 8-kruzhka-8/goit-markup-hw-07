@@ -2,16 +2,16 @@
     padding-bottom: 94px;
 }
 
-.work-case {
+.work__case {
     display: flex;
     gap: 30px;
 }
 
-.work-case-card {
+.work__card {
     position: relative;
 }
 
-.work-overlay-style {
+.work__overlay--style {
     position: absolute;
     @extend %align;
     bottom: 0;
@@ -21,7 +21,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-overlay {
+.work__overlay {
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;

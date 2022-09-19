@@ -58,12 +58,12 @@
     width: 100%;
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
 
     .portfolio-projects__link:hover &,
     .portfolio-projects__link:focus & {
-        transform: translateY(0%);
-        transition-duration: 250ms;
-        transition-timing-function: var(--cubic);
+        transform: translateY(0%);  
     }
 }
 
